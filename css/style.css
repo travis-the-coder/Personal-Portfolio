@@ -8,6 +8,7 @@ blockquote {
   text-align: center;
 }
 
+
 h1 {
   text-align: center;
   font-family: comic sans ms;
@@ -39,23 +40,25 @@ ul {
 
 /* Bootsrap CSS */
 
-*,
-*::before,
-*::after {
+body::before{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 
 /* Classes */
 
 .container {
   width: auto;
   padding: 2rem;
+  border-radius: 2%;
+  border-collapse: collapse;
 }
 
+
 .m-header {
-  padding-bottom: 5vh;
+  padding-bottom: 5svh;
 }
 
 .travis1,
@@ -95,7 +98,7 @@ ul {
   display: grid;
   align-items: auto;
   justify-content: space-between;
-  tex-align: center;
+  text-align: center;
   border-radius: 2%;
   border-collapse: collapse;
   padding: 1.5rem;
