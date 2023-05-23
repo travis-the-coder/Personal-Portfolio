@@ -2,11 +2,20 @@ body {
   background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
 }
 
 blockquote {
   text-align: center;
 }
+
+form {
+  width: auto;
+  padding: 2rem;
+  border-radius: 2%;
+  border-collapse: collapse;
+}
+
 
 
 h1 {
@@ -38,7 +47,7 @@ ul {
   list-style-type: square;
 }
 
-/* Bootsrap CSS */
+/* Pseudo Classes */
 
 body::before{
   box-sizing: border-box;
@@ -46,16 +55,29 @@ body::before{
   padding: 0;
 }
 
+body::after {
+  word-spacing: 2vh;
+}
+
+/* Bootstrap CSS */
 
 /* Classes */
 
-.container {
-  width: auto;
-  padding: 2rem;
-  border-radius: 2%;
+.footer {
+  /* width: auto; */
+  border-radius: 5%;
+  background-color:#9BA4B5;
   border-collapse: collapse;
+  padding: .5%;
+  position: relative;
+  align-items: center;
 }
 
+.hobby {
+  background-color: #9BA4B5;
+  border-radius: 5%;
+  padding: .5%;
+}
 
 .m-header {
   padding-bottom: 5svh;
