@@ -12,8 +12,9 @@
 ```
 
 ### <ins>How to get underlined text:</ins> ###
+```
 <ins>example text here</ins>
-
+```
 ============================================================================================
 
 # <ins>Personal-Portfolio </ins>
