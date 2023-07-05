@@ -183,7 +183,28 @@ body::after {
   min-height: 40vh;
   margin-inline: auto;
   padding: 2rem;
-  animation: fade-in-right 700ms forwards;
+  /*animation: fade-in-left 700ms forwards;*/
+}
+
+.fade-in {
+  opacity: 0;
+  transition: 700ms ease-in;
+}
+
+.fade-in.appear{
+  opacity: 1;
+}
+
+.from-left {
+  transform: translateX(-100%);
+  transition: opacity 250ms ease-in,
+  transform 700ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 
@@ -202,7 +223,7 @@ body::after {
 
 /* Keyframe[animation] */
 
-@keyframes fade-in-right {
+@keyframes fade-in-left {
   0% {
     transform: translateX(-10%);
     opacity: 0;
@@ -270,3 +291,6 @@ body::after {
 
 
 }
+
+
+
