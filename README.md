@@ -63,3 +63,13 @@ Here will be the history of project 5 "Personal - Portfolio":
 - Successfully pulled and merged this document from (first-branch) -> (Main)
 ```
 ============================================================================================
+
+```diff
+**7/6/23:**
++ Created fade-in javascript
++ Added javascript to personal website
+
+**7/7/23**
+! Made minor corrections to the javascript implementation[code shows in website]
+! Text fades out of the page instead of in[proof that the code is working,albeit in reverse]
+```
