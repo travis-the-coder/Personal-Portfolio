@@ -188,7 +188,7 @@ body::after {
 
 .fade-in {
   opacity: 0;
-  transition: 700ms ease-in;
+  transition: 750ms ease-in;
 }
 
 .fade-in.appear{
