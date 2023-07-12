@@ -73,3 +73,9 @@ Here will be the history of project 5 "Personal - Portfolio":
 ! Made minor corrections to the javascript implementation[code shows in website]
 ! Text fades out of the page instead of in[proof that the code is working,albeit in reverse]
 ```
+============================================================================================
+
+```diff
+**7/12/23**
+- Fixed JavaScript issue with text fading and sliding out, now headers(h-tags) fades in when scrolling down the webpage and now the content itself now will now fade and slide in as you scroll down the website
+```
