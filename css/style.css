@@ -188,7 +188,7 @@ body::after {
 
 .fade-in {
   opacity: 0;
-  transition: 750ms ease-in;
+  transition: opacity 3000ms ease;
 }
 
 .fade-in.appear{
@@ -197,8 +197,8 @@ body::after {
 
 .from-left {
   transform: translateX(-100%);
-  transition: opacity 250ms ease-in,
-  transform 700ms ease-in;
+  transition: opacity 1500ms ease-in,
+  transform 1500ms ease-in;
   opacity: 0;
 }
 
@@ -218,21 +218,6 @@ body::after {
 .hero__buttons > .order-now-btn:hover {
   transform: scale(1.07);
   transition: all 300ms ease-in-out;
-}
-
-
-/* Keyframe[animation] */
-
-@keyframes fade-in-left {
-  0% {
-    transform: translateX(-10%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 

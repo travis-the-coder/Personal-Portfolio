@@ -1,23 +1,26 @@
-  const faders = document.querySelectorAll('.fade-in');
+// // Goal is to get the 
+
+const faders = document.querySelectorAll('.fade-in');
+const sliders = document.querySelectorAll(".from-left");
+
   const appearOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px -100px 0px"
+    threshold: 0.1,
+    rootMargin: "0px"
   };
-    const sliders = document.querySelectorAll(".slide-in");
-
-
-
+    
   const appearOnScroll = new IntersectionObserver
   (function(entries, appearOnScroll) {
 
+
     entries.forEach(entry => {
-        if(!entry.isIntersecting) {
-            return;}
-            else {
+
+      
+        if(entry.isIntersecting) {
+
                 entry.target.classList.add('appear');
-                appearOnScroll.unobserve(entry.target);
+                //appearOnScroll.unobserve(entry.target);
             }
-    })
+    }) 
 
   },appearOptions);
 
@@ -30,3 +33,4 @@ sliders.forEach(slider => {
     appearOnScroll.observe(slider);
 
 });
+
