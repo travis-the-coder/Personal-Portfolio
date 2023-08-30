@@ -9,6 +9,22 @@ blockquote {
   text-align: center;
 }
 
+.error-hide{
+  display: none;
+}
+
+.error-show{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
 form {
   width: auto;
   padding: 2rem;
