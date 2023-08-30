@@ -27,7 +27,7 @@ do {
     document.getElementById("result").innerText = number;
     event.preventDefault();
     
-}
+  }
  
 function createSortedArray(event) {
     var list = document.getElementById("result").innerText.split(",").map(Number);
@@ -36,4 +36,4 @@ function createSortedArray(event) {
     event.preventDefault();
     event.stopPropagation();
 
-}
+  }
